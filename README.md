@@ -1,3 +1,5 @@
+
+
 # 🌍 GeoLite-IP
 
 个人网络环境健康检测工具，支持混合IP与域名查询，支持单个IP与域名查询，批量处理查询，使用MaxMind GeoLite2-Country.mmdb数据库地理位置查询API，可一键部署到Vercel。
@@ -147,7 +149,7 @@ curl -X POST "https://your-domain.vercel.app/api/query" \
 
 **请求方法**: `POST`
 
-**查询限制**: 最多100个地址
+**查询限制**: 最多500个地址
 
 ```bash
 curl -X POST "https://your-domain.vercel.app/api/batch" \
